@@ -34,4 +34,5 @@ basic.forever(function () {
         radio.sendValue("MotorX", xx)
         radio.sendValue("MotorY", yx)
     }
+    basic.pause(30)
 })
